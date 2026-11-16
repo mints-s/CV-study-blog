@@ -1,0 +1,139 @@
+{
+  "timezone": "Asia/Seoul",
+  "start_date": "2026-11-16",
+  "daily_last_date": "2026-12-06",
+  "slow_start_date": "2026-12-09",
+  "slow_interval_days": 3,
+  "execution_time": "05:00",
+  "next_day": 2,
+  "items": [
+    {
+      "day": 1,
+      "title": "벡터·행렬·동차좌표",
+      "status": "published",
+      "url": "/notes/vectors-matrices-homogeneous/",
+      "published_date": "2026-11-16"
+    },
+    {
+      "day": 2,
+      "title": "손실·경사하강·역전파",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 3,
+      "title": "Convolution과 feature map",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 4,
+      "title": "Pinhole camera와 K, R, t",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 5,
+      "title": "Camera Calibration",
+      "status": "planned",
+      "url": "/notes/camera-calibration/",
+      "note": "파일럿 원고를 기존 URL에서 보완한 뒤 정규 Day 5로 표시한다. 아직 정규 회차 완료가 아니다."
+    },
+    {
+      "day": 6,
+      "title": "Epipolar Geometry",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 7,
+      "title": "Triangulation과 PnP",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 8,
+      "title": "SfM과 Bundle Adjustment",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 9,
+      "title": "Attention의 Q, K, V",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 10,
+      "title": "Transformer와 위치 정보",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 11,
+      "title": "Detection·Segmentation과 평가",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 12,
+      "title": "표현 학습·대조 학습",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 13,
+      "title": "Ray·Volume Rendering",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 14,
+      "title": "기초 종합 지도와 복습",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 15,
+      "title": "ResNet",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 16,
+      "title": "U-Net",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 17,
+      "title": "Faster R-CNN",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 18,
+      "title": "ViT",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 19,
+      "title": "CLIP",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 20,
+      "title": "NeRF",
+      "status": "planned",
+      "url": null
+    },
+    {
+      "day": 21,
+      "title": "3D Gaussian Splatting",
+      "status": "planned",
+      "url": null
+    }
+  ]
+}
