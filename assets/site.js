@@ -1,0 +1,5 @@
+document.addEventListener('DOMContentLoaded',()=>{
+ const search=document.querySelector('#search');if(search)search.addEventListener('input',()=>{let count=0;document.querySelectorAll('[data-search]').forEach(card=>{card.hidden=!card.dataset.search.toLowerCase().includes(search.value.trim().toLowerCase());if(!card.hidden)count++});document.querySelector('#empty').hidden=count>0});
+ const toc=document.querySelector('#toc-links');if(toc)document.querySelectorAll('.prose h2').forEach((h,i)=>{if(!h.id)h.id='section-'+i;const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;toc.append(a)});
+ const f=document.querySelector('#focal'),z=document.querySelector('#depth');if(f&&z){const update=()=>{const u=Number(f.value)*.5/Number(z.value)+320;document.querySelector('#focal-value').textContent=f.value;document.querySelector('#depth-value').textContent=Number(z.value).toFixed(1);document.querySelector('#pixel-value').textContent=u.toFixed(1);document.querySelector('#projected').setAttribute('cx',u);document.querySelector('#ray').setAttribute('x2',u)};f.addEventListener('input',update);z.addEventListener('input',update);update()}
+});

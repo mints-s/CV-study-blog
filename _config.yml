@@ -1,0 +1,12 @@
+title: "mints �� Vision Notes"
+description: "���ʿ��� ��������, �а� �����ϴ� ��ǻ�� ���� ��Ʈ."
+url: "https://mints-s.github.io"
+baseurl: "/CV-study-blog"
+timezone: Asia/Seoul
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+permalink: /notes/:title/
+exclude: [README.md, templates, Gemfile, Gemfile.lock]
+

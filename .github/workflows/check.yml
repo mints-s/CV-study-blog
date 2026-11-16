@@ -1,0 +1,49 @@
+name: Validate blog
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Check generated pages and assets
+        run: |
+          test -s _site/index.html
+          test -s _site/notes/camera-calibration/index.html
+          test -s _site/roadmap/index.html
+          test -s _site/assets/style.css
+          test -s _site/assets/projection.svg
+          node --check assets/site.js
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          from urllib.parse import urlparse, unquote
+          root = Path('_site')
+          class Links(HTMLParser):
+              def handle_starttag(self, tag, attrs):
+                  for key, value in attrs:
+                      if key not in ('href', 'src') or not value:
+                          continue
+                      path = unquote(urlparse(value).path)
+                      if not path.startswith('/CV-study-blog/'):
+                          continue
+                      target = root / path.removeprefix('/CV-study-blog/')
+                      if path.endswith('/'):
+                          target = target / 'index.html'
+                      assert target.exists(), f'Missing local target: {value}'
+          for page in root.rglob('*.html'):
+              text = page.read_text()
+              assert '{{' not in text and '{%' not in text, f'Unrendered Liquid: {page}'
+              Links().feed(text)
+          print('Generated pages and internal links verified.')
+          PY
+
