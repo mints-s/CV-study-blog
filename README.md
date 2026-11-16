@@ -1,18 +1,18 @@
-# mints �� Vision Notes
+# mints · Vision Notes
 
-�ѱ��� CV �н� ���α� ���Ϸ�. Jekyll + GitHub Pages.
+한국어 CV 학습 블로그 파일럿. Jekyll + GitHub Pages.
 
-- ����Ʈ: https://mints-s.github.io/CV-study-blog/
-- ���Ϸ� ����: [_posts/2026-11-16-camera-calibration.md](_posts/2026-11-16-camera-calibration.md)
-- ȭ��: Ȩ, �н� ����, �д� ���, �� ������ ����, ���� �ǽ�
-- �� ��: `_posts/YYYY-MM-DD-slug.md`�� Markdown �߰�
-- ���� ���ø�: [templates/paper-review.md](templates/paper-review.md)
+- 사이트: https://mints-s.github.io/CV-study-blog/
+- 파일럿 원고: [_posts/2026-11-16-camera-calibration.md](_posts/2026-11-16-camera-calibration.md)
+- 화면: 홈, 학습 순서, 읽는 방법, 글 목차와 수식, 투영 실습
+- 새 글: `_posts/YYYY-MM-DD-slug.md`에 Markdown 추가
+- 논문 템플릿: [templates/paper-review.md](templates/paper-review.md)
 
-## ���� �Խ� ����
+## 최초 게시 설정
 
-����� Settings �� Pages �� Build and deployment���� Source�� **Deploy from a branch**, Branch�� **main**, ������ **/(root)**�� �����ϰ� Save. GitHub �⺻ Jekyll ���尡 �� �ҽ��� �Խ��մϴ�. ���� ��ū������ ���񽺰� �ʿ����� �ʽ��ϴ�.
+저장소 Settings → Pages → Build and deployment에서 Source를 **Deploy from a branch**, Branch를 **main**, 폴더를 **/(root)**로 선택하고 Save. GitHub 기본 Jekyll 빌드가 이 소스를 게시합니다. 별도 토큰·유료 서비스가 필요하지 않습니다.
 
-## �
+## 운영
 
-�ݺ� �� ���� ������ ���� �������� �ʾҽ��ϴ�. �� Ŀ�� �� Pages�� ���ŵ˴ϴ�. ��¥�� Asia/Seoul �����Դϴ�. ���� �������� ���� ������ MathJax CDN�� ����ϹǷ� ���ͳ� ������ �ʿ��մϴ�. ���İ� �ǽ��� ���� �ۼ��� �������̸� ���� ����� �ƴմϴ�.
+반복 글 생성 일정은 아직 설정하지 않았습니다. 글 커밋 후 Pages가 갱신됩니다. 날짜는 Asia/Seoul 기준입니다. 수식 렌더링은 버전 고정된 MathJax CDN을 사용하므로 인터넷 연결이 필요합니다. 도식과 실습은 직접 작성한 설명용이며 실측 결과가 아닙니다.
 

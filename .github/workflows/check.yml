@@ -42,8 +42,11 @@ jobs:
                       assert target.exists(), f'Missing local target: {value}'
           for page in root.rglob('*.html'):
               text = page.read_text()
+              assert '\ufffd' not in text, f'Corrupted Unicode: {page}'
               assert '{{' not in text and '{%' not in text, f'Unrendered Liquid: {page}'
               Links().feed(text)
+          article = (root / 'notes/camera-calibration/index.html').read_text()
+          assert '\ud53d\uc140\uacfc 3D \uacf5\uac04\uc744 \uc5f0\uacb0\ud558\ub294 \ubc95' in article, 'Korean article title missing'
           print('Generated pages and internal links verified.')
           PY
 
