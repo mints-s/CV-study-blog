@@ -5,7 +5,7 @@
   "slow_start_date": "2026-12-09",
   "slow_interval_days": 3,
   "execution_time": "05:00",
-  "next_day": 2,
+  "next_day": 3,
   "items": [
     {
       "day": 1,
@@ -17,8 +17,9 @@
     {
       "day": 2,
       "title": "손실·경사하강·역전파",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/notes/loss-gradient-backprop/",
+      "published_date": "2026-11-17"
     },
     {
       "day": 3,

@@ -192,6 +192,6 @@ print(translation @ direction)    # [2 1 0]
 2. [OpenCV Affine Transformations](https://docs.opencv.org/4.x/d4/d61/tutorial_warp_affine.html): 아핀 변환의 행렬곱과 이동 표현.
 3. [OpenCV Camera Calibration and 3D Reconstruction](https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html): 세계·카메라 좌표, 동차변환, 투영 모델.
 
-확인일: 2026-11-16. 다음 학습은 **Day 2 — 손실·경사하강·역전파**다. 오늘의 변환을 “원하는 출력에 맞게 어떻게 조정하는가”라는 질문으로 이어간다.
+확인일: 2026-11-16. 다음 학습은 [Day 2 — 손실·경사하강·역전파]({{ '/notes/loss-gradient-backprop/' | relative_url }})다. 오늘의 변환을 “원하는 출력에 맞게 어떻게 조정하는가”라는 질문으로 이어간다.
 
 [전체 학습 지도]({{ '/roadmap/' | relative_url }}) · [연결해서 읽기: Camera Calibration 파일럿]({{ '/notes/camera-calibration/' | relative_url }})
