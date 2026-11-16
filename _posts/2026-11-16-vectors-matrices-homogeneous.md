@@ -2,7 +2,7 @@
 layout: post
 title: "벡터·행렬·동차좌표: 좌표 변환을 읽는 첫 번째 언어"
 description: "점과 방향을 구별하고, 행렬곱의 순서와 동차좌표가 필요한 이유를 작은 숫자 예제로 연결한다."
-date: 2026-11-16 23:00:00 +09:00
+date: 2026-11-16 16:57:00 +09:00
 category_label: "기초 개념"
 series_day: 1
 topic: "LINEAR ALGEBRA"
