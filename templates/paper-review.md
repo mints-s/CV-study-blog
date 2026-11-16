@@ -6,6 +6,7 @@ category_label: 논문 리뷰
 tags: [vision]
 reading_time: 10
 ---
+<!-- 문체: templates/STYLE.md를 따른다. 평서문은 ~이다/~한다로 작성한다. -->
 원문 제목 / 저자 / 학회 / 읽은 버전 / Paper·Code 링크
 ## 1분 요약
 문제 / 기존 한계 / 핵심 변화 / 실험 근거 / 기억할 한 문장

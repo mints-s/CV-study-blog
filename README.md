@@ -10,9 +10,9 @@
 
 ## 최초 게시 설정
 
-저장소 Settings → Pages → Build and deployment에서 Source를 **Deploy from a branch**, Branch를 **main**, 폴더를 **/(root)**로 선택하고 Save. GitHub 기본 Jekyll 빌드가 이 소스를 게시합니다. 별도 토큰·유료 서비스가 필요하지 않습니다.
+저장소 Settings → Pages → Build and deployment에서 Source를 **Deploy from a branch**, Branch를 **main**, 폴더를 **/(root)**로 선택하고 Save. GitHub 기본 Jekyll 빌드가 이 소스를 게시한다. 별도 토큰·유료 서비스가 필요하지 않다.
 
 ## 운영
 
-반복 글 생성 일정은 아직 설정하지 않았습니다. 글 커밋 후 Pages가 갱신됩니다. 날짜는 Asia/Seoul 기준입니다. 수식 렌더링은 버전 고정된 MathJax CDN을 사용하므로 인터넷 연결이 필요합니다. 도식과 실습은 직접 작성한 설명용이며 실측 결과가 아닙니다.
+반복 글 생성 일정은 아직 설정하지 않았다. 글 커밋 후 Pages가 갱신된다. 날짜는 Asia/Seoul 기준이다. 수식 렌더링은 버전 고정된 MathJax CDN을 사용하므로 인터넷 연결이 필요하다. 도식과 실습은 직접 작성한 설명용이며 실측 결과가 아니다.
 
