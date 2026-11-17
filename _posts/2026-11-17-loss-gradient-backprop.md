@@ -209,4 +209,4 @@ optimizer.step()
 
 [이전: 벡터·행렬·동차좌표]({{ '/notes/vectors-matrices-homogeneous/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** 이미지의 모든 위치마다 별도 가중치를 두는 대신, 작은 필터를 공유하면 무엇이 달라지는가? Day 3에서는 Convolution과 feature map을 다룬다.
+**다음 질문:** 이미지의 모든 위치마다 별도 가중치를 두는 대신, 작은 필터를 공유하면 무엇이 달라지는가? [Day 3 — Convolution과 feature map]({{ '/notes/convolution-feature-maps/' | relative_url }})에서 이어간다.

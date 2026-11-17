@@ -5,7 +5,7 @@
   "slow_start_date": "2026-12-09",
   "slow_interval_days": 3,
   "execution_time": "05:00",
-  "next_day": 3,
+  "next_day": 4,
   "items": [
     {
       "day": 1,
@@ -24,8 +24,9 @@
     {
       "day": 3,
       "title": "Convolution과 feature map",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/notes/convolution-feature-maps/",
+      "published_date": "2026-11-18"
     },
     {
       "day": 4,
