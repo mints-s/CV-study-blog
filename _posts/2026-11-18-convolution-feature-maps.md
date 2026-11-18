@@ -232,4 +232,4 @@ assert sum(map(sum, corr(b, [[1]], stride=2))) == 0
 
 [이전: 손실·경사하강·역전파]({{ '/notes/loss-gradient-backprop/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** CNN이 처리하는 이미지의 픽셀은 3차원 장면의 어느 점에서 왔는가? Day 4에서는 Pinhole camera와 K, R, t를 다룬다.
+**다음 질문:** CNN이 처리하는 이미지의 픽셀은 3차원 장면의 어느 점에서 왔는가? [Day 4 — Pinhole camera와 K, R, t]({{ '/notes/pinhole-camera-intrinsics-extrinsics/' | relative_url }})에서 이어간다.
