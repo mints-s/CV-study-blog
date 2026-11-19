@@ -266,4 +266,4 @@ Python 표준 라이브러리로 위 검사를 실행했다. OpenCV·COLMAP의 �
 
 [이전: Convolution과 feature map]({{ '/notes/convolution-feature-maps/' | relative_url }}) · [선수 지식: 벡터·행렬·동차좌표]({{ '/notes/vectors-matrices-homogeneous/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** 투영 규칙을 알았다면 실제 카메라의 K와 왜곡 계수는 어떻게 구하는가? Day 5에서는 [Camera Calibration 파일럿]({{ '/notes/camera-calibration/' | relative_url }})을 같은 URL에서 보완한다.
+**다음 질문:** 투영 규칙을 알았다면 실제 카메라의 K와 왜곡 계수는 어떻게 구하는가? [Day 5 — Camera Calibration]({{ '/notes/camera-calibration/' | relative_url }})에서 이어간다.

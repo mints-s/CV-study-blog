@@ -5,7 +5,7 @@
   "slow_start_date": "2026-12-09",
   "slow_interval_days": 3,
   "execution_time": "05:00",
-  "next_day": 5,
+  "next_day": 6,
   "items": [
     {
       "day": 1,
@@ -38,9 +38,10 @@
     {
       "day": 5,
       "title": "Camera Calibration",
-      "status": "planned",
+      "status": "published",
       "url": "/notes/camera-calibration/",
-      "note": "파일럿 원고를 기존 URL에서 보완한 뒤 정규 Day 5로 표시한다. 아직 정규 회차 완료가 아니다."
+      "note": "2026-11-16 파일럿을 기존 URL에서 보완한 정규 Day 5다.",
+      "published_date": "2026-11-20"
     },
     {
       "day": 6,
