@@ -96,14 +96,14 @@ Zhang의 방법은 평면 패턴으로 보정을 수행하는 대표 출발점�
 
 $x=X_c/Z_c,\ y=Y_c/Z_c,\ r^2=x^2+y^2$로 둔다. 기본적인 5계수 모델에서는 다음과 같이 쓴다. [1, 2]
 
-$
+$$
 a=1+k_1r^2+k_2r^4+k_3r^6
-$
+$$
 
-$
+$$
 x_d=xa+2p_1xy+p_2(r^2+2x^2),\qquad
 y_d=ya+p_1(r^2+2y^2)+2p_2xy
-$
+$$
 
 최종 픽셀은 $u=f_xx_d+c_x,\ v=f_yy_d+c_y$다. $k$들은 radial, $p$들은 tangential 계수이며 이 좌표 규약에서는 무차원이다. $D=(k_1,k_2,p_1,p_2,k_3)$라는 저장 순서와 수식의 항 순서를 혼동하지 않는다. 모든 렌즈가 이 다항식으로 충분히 설명되는 것은 아니다.
 
@@ -113,11 +113,11 @@ $
 
 사진 $j$의 코너 $i$를 $p_{ji}$, 패턴 좌표를 $\mathbf P_i$라 하자. 기본적인 최소제곱 보정의 목표는 다음과 같다.
 
-$
+$$
 \min_{K,D,\{R_j,t_j\}}
 \sum_j\sum_i
 \left\|p_{ji}-\pi(K,D,R_j\mathbf P_i+t_j)\right\|_2^2
-$
+$$
 
 $\pi$는 깊이로 나누기·왜곡·픽셀 변환을 포함한다. K와 D는 고정된 카메라 설정에서 공유하지만 패턴 자세 $R_j,t_j$는 사진마다 다르다. [Day 2의 손실·최적화]({{ '/notes/loss-gradient-backprop/' | relative_url }})와 연결하면 “어떤 변수를 함께 바꿔 잔차를 줄이는가”를 읽을 수 있다.
 
@@ -167,9 +167,9 @@ $$
 
 $a_i=800x_i^3,\ b_i=u_{d,i}-(800x_i+320)$로 두면 $b_i=a_i k_1$이므로 최소제곱 해는 다음과 같다.
 
-$
+$$
 \hat k_1=\frac{\sum_i a_i b_i}{\sum_i a_i^2}=-0.2
-$
+$$
 
 왜곡 없는 모델의 세 점 RMS는 약 **2.6030 pixel**이다. 추정 모델의 잔차는 수치 오차 수준으로 줄었다. 추정에 쓰지 않은 $x=0.25$에서는 참 관측값 517.5 pixel을 복원하며, 왜곡을 무시하면 520 pixel로 2.5 pixel 차이가 난다. 생성 모델과 추정 모델이 같고 잡음도 없으므로 이 결과를 실측 성능으로 해석하지 않는다.
 
@@ -258,5 +258,5 @@ Python 표준 라이브러리로 실행했다. OpenCV의 calibrateCamera나 실�
 
 [이전: Pinhole camera와 K, R, t]({{ '/notes/pinhole-camera-intrinsics-extrinsics/' | relative_url }})
 
-**다음 질문:** 두 이미지에서 같은 점을 찾으면, 왜 대응점은 epipolar line 위에 있어야 할까? 다음 주제는 Epipolar Geometry다. [전체 학습 순서]({{ '/roadmap/' | relative_url }})
+**다음 질문:** 두 이미지에서 같은 점을 찾으면, 왜 대응점은 epipolar line 위에 있어야 할까? [Day 6 — Epipolar Geometry]({{ '/notes/epipolar-geometry/' | relative_url }})에서 이어간다. [전체 학습 순서]({{ '/roadmap/' | relative_url }})
 
