@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="600" viewBox="0 0 1120 600" role="img" aria-labelledby="title desc">
+<title id="title">삼각측량의 깊이와 1 pixel 섭동</title>
+<desc id="desc">왼쪽은 XZ 투영이며 미터당 80 픽셀의 동일 축척이다. C1은 (0,0), C2는 (0.2,0), 점은 (0.5,2)와 (1,4)다. 오른쪽은 오른쪽 u를 1 pixel 증가시킨 두 실험의 깊이 오차다.</desc>
+<rect width="1120" height="600" rx="20" fill="#101b2e"/>
+<g font-family="Arial, sans-serif" fill="#e8effb">
+<text x="36" y="43" font-size="23" font-weight="700">TRIANGULATION · DEPTH SENSITIVITY</text>
+<text x="36" y="75" font-size="16" fill="#aebed5">f = 800 px · B = 0.2 m · parallel stereo · no distortion</text>
+<path d="M550 105V560" stroke="#36465d"/>
+<text x="36" y="117" font-size="19">XZ projection (equal metric scale)</text>
+<g stroke="#2d3c52" stroke-width="1">
+<path d="M160 510H480M160 430H480M160 350H480M160 270H480M160 190H480M160 190V510M240 190V510M320 190V510M400 190V510M480 190V510"/>
+</g>
+<path d="M160 510H495M160 510V170" fill="none" stroke="#aebed5" stroke-width="2"/>
+<g font-size="14" fill="#aebed5">
+<text x="130" y="515">0</text><text x="130" y="435">1</text><text x="130" y="355">2</text><text x="130" y="275">3</text><text x="130" y="195">4</text>
+<text x="235" y="531">1</text><text x="315" y="531">2</text><text x="395" y="531">3</text><text x="475" y="531">4</text><text x="453" y="555">X (m)</text><text x="94" y="158">Z (m)</text>
+</g>
+<path d="M160 510L240 190" stroke="#64d8ed" stroke-width="3"/>
+<path d="M176 510L200 350" stroke="#ffca77" stroke-width="3"/>
+<path d="M176 510L240 190" stroke="#ffca77" stroke-width="3" stroke-dasharray="7 5"/>
+<g fill="#64d8ed"><circle cx="200" cy="350" r="6"/><circle cx="240" cy="190" r="6"/></g>
+<text x="220" y="346" font-size="17">(0.5, 2) m</text>
+<text x="260" y="199" font-size="17">(1, 4) m</text>
+<g fill="#ffca77"><circle cx="160" cy="510" r="5"/><circle cx="176" cy="510" r="5"/></g>
+<path d="M160 518L130 540M176 518L192 540" stroke="#ffca77"/>
+<text x="78" y="558" font-size="16">C₁: X=0</text><text x="182" y="558" font-size="16">C₂: X=0.2</text>
+<text x="36" y="585" font-size="14" fill="#aebed5">Y omitted · two separate depth hypotheses</text>
+<text x="590" y="117" font-size="19">Right u + 1 px → depth error</text>
+<text x="590" y="154" font-size="16" fill="#aebed5">Left pixel fixed at (520, 340)</text>
+<text x="590" y="220" font-size="17">Z = 2 m</text>
+<rect x="700" y="195" width="60.759494" height="38" rx="4" fill="#64d8ed"/>
+<text x="777" y="220" font-size="17">+0.025316 m</text>
+<text x="590" y="300" font-size="17">Z = 4 m</text>
+<rect x="700" y="275" width="246.153846" height="38" rx="4" fill="#ffca77"/>
+<text x="700" y="345" font-size="17">+0.102564 m</text>
+<path d="M700 370H988M700 365V375M820 365V375M940 365V375" stroke="#aebed5"/>
+<g fill="#aebed5" font-size="14"><text x="696" y="396">0</text><text x="805" y="396">0.05</text><text x="925" y="396">0.10</text><text x="700" y="424">Depth error (m)</text></g>
+<text x="590" y="480" font-size="19">Z = fB / d = 160 / d</text>
+<text x="590" y="515" font-size="17">80 → 79 px:  2 → 2.025316 m</text>
+<text x="590" y="545" font-size="17">40 → 39 px:  4 → 4.102564 m</text>
+<text x="590" y="580" font-size="14" fill="#aebed5">Exact finite perturbation, not a noise benchmark</text>
+</g>
+</svg>

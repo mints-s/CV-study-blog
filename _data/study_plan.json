@@ -5,7 +5,7 @@
   "slow_start_date": "2026-12-09",
   "slow_interval_days": 3,
   "execution_time": "05:00",
-  "next_day": 7,
+  "next_day": 8,
   "items": [
     {
       "day": 1,
@@ -53,8 +53,9 @@
     {
       "day": 7,
       "title": "Triangulation과 PnP",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/notes/triangulation-pnp/",
+      "published_date": "2026-11-22"
     },
     {
       "day": 8,
@@ -142,3 +143,4 @@
     }
   ]
 }
+

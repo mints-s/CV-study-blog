@@ -240,4 +240,5 @@ Python 표준 라이브러리로 위 예제를 실행했다. F를 영상으로�
 
 [이전: Camera Calibration]({{ '/notes/camera-calibration/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** 대응 픽셀과 카메라가 주어지면 3D 점을 어떻게 구하고, 3D 점과 픽셀이 주어지면 카메라 자세를 어떻게 구하는가? Day 7은 Triangulation과 PnP다.
+**다음 질문:** 대응 픽셀과 카메라가 주어지면 3D 점을 어떻게 구하고, 3D 점과 픽셀이 주어지면 카메라 자세를 어떻게 구하는가? Day 7은 [Triangulation과 PnP]({{ '/notes/triangulation-pnp/' | relative_url }})다.
+
