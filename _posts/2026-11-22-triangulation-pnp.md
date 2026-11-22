@@ -241,4 +241,5 @@ residual = (predicted - observed).ravel()
 
 [이전: Epipolar Geometry]({{ '/notes/epipolar-geometry/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** 카메라와 점이 모두 조금씩 틀렸다면 무엇을 함께 고쳐야 하는가? Day 8은 SfM과 Bundle Adjustment다.
+**다음 질문:** 카메라와 점이 모두 조금씩 틀렸다면 무엇을 함께 고쳐야 하는가? Day 8은 [SfM과 Bundle Adjustment]({{ '/notes/sfm-bundle-adjustment/' | relative_url }})다.
+
