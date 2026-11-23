@@ -209,4 +209,5 @@ Ceres 공식 예제는 Bundler의 음의 z축 관례로 나눗셈에 음수를 �
 
 [이전: Triangulation과 PnP]({{ '/notes/triangulation-pnp/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** 기하적 대응을 넘어, 여러 특징 중 필요한 정보를 어떻게 선택해 모을까? Day 9는 Attention의 Q, K, V다.
+**다음 질문:** 기하적 대응을 넘어, 여러 특징 중 필요한 정보를 어떻게 선택해 모을까? Day 9는 [Attention의 Q, K, V]({{ '/notes/attention-qkv/' | relative_url }})다.
+
