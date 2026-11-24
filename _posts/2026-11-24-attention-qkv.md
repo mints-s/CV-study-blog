@@ -200,4 +200,5 @@ head 수를 H라 하면 이어 붙인 결과는 $n\times(Hd_v)$이고, $W_O\in\m
 
 [이전: SfM과 Bundle Adjustment]({{ '/notes/sfm-bundle-adjustment/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** Attention 결과를 어떻게 쌓고, 토큰의 순서와 위치를 어떻게 알려 줄까? Day 10은 Transformer와 위치 정보다.
+**다음 질문:** Attention 결과를 어떻게 쌓고, 토큰의 순서와 위치를 어떻게 알려 줄까? Day 10은 [Transformer와 위치 정보]({{ '/notes/transformer-position/' | relative_url }})다.
+

@@ -5,7 +5,7 @@
   "slow_start_date": "2026-12-09",
   "slow_interval_days": 3,
   "execution_time": "05:00",
-  "next_day": 10,
+  "next_day": 11,
   "items": [
     {
       "day": 1,
@@ -74,8 +74,9 @@
     {
       "day": 10,
       "title": "Transformer와 위치 정보",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/notes/transformer-position/",
+      "published_date": "2026-11-25"
     },
     {
       "day": 11,
