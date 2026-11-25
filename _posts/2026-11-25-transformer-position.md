@@ -217,4 +217,5 @@ y = u + np.maximum(ln(u), 0)
 
 [이전: Attention의 Q, K, V]({{ '/notes/attention-qkv/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** 특징을 얻은 뒤 물체의 위치와 픽셀별 영역을 어떻게 예측하고 평가할까? Day 11은 Detection·Segmentation과 평가다.
+**다음 질문:** 특징을 얻은 뒤 물체의 위치와 픽셀별 영역을 어떻게 예측하고 평가할까? 다음 글은 [Day 11: Detection·Segmentation과 평가]({{ '/notes/detection-segmentation-evaluation/' | relative_url }})다.
+
