@@ -5,7 +5,7 @@
   "slow_start_date": "2026-12-09",
   "slow_interval_days": 3,
   "execution_time": "05:00",
-  "next_day": 12,
+  "next_day": 13,
   "items": [
     {
       "day": 1,
@@ -88,8 +88,9 @@
     {
       "day": 12,
       "title": "표현 학습·대조 학습",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/notes/representation-contrastive-learning/",
+      "published_date": "2026-11-27"
     },
     {
       "day": 13,

@@ -198,4 +198,5 @@ COCO 부록 I는 개별 instance 표시·분할·검증과 crowd labeling을 구
 
 [이전: Transformer와 위치 정보]({{ '/notes/transformer-position/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** 정답 라벨이 적을 때도 좋은 특징을 얻을 수 있을까? Day 12는 표현 학습·대조 학습이다.
+**다음 질문:** 정답 라벨이 적을 때도 좋은 특징을 얻을 수 있을까? 다음 글은 [Day 12: 표현 학습·대조 학습]({{ '/notes/representation-contrastive-learning/' | relative_url }})이다.
+
