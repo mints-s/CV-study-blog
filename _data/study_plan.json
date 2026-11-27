@@ -5,7 +5,7 @@
   "slow_start_date": "2026-12-09",
   "slow_interval_days": 3,
   "execution_time": "05:00",
-  "next_day": 13,
+  "next_day": 14,
   "items": [
     {
       "day": 1,
@@ -95,8 +95,9 @@
     {
       "day": 13,
       "title": "Ray·Volume Rendering",
-      "status": "planned",
-      "url": null
+      "status": "published",
+      "url": "/notes/ray-volume-rendering/",
+      "published_date": "2026-11-28"
     },
     {
       "day": 14,

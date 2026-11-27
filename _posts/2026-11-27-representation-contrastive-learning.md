@@ -185,4 +185,5 @@ False negative는 다른 원본이지만 의미상 비슷한 입력을 negative�
 
 [이전: Detection·Segmentation과 평가]({{ '/notes/detection-segmentation-evaluation/' | relative_url }}) · [전체 학습 지도]({{ '/roadmap/' | relative_url }})
 
-**다음 질문:** 3D 공간의 밀도와 색을 한 픽셀로 모으는 규칙은 무엇일까? Day 13은 Ray·Volume Rendering이다.
+**다음 질문:** 3D 공간의 밀도와 색을 한 픽셀로 모으는 규칙은 무엇일까? 다음 글은 [Day 13: Ray·Volume Rendering]({{ '/notes/ray-volume-rendering/' | relative_url }})이다.
+
